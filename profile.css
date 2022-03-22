@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.con1 {
+  background-color: #252023;
+  padding: 9px;
+}
+.header {
+  background-color: #252023;
+}
+.nav {
+  background: transparent;
+  display: flex;
+  margin-top: 2rem;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+  list-style: none;
+}
+li {
+  display: flex;
+  margin-right: 3rem;
+  font-size: 2rem;
+  font-family: fantasy;
+  border-right: 4px solid #5b5455;
+
+  text-shadow: 2px 2px 5px black;
+
+  padding: 19px;
+}
+a {
+  color: white;
+  text-shadow: 4px 4px 7px black;
+}
+.logo {
+  width: 5%;
+  height: 6%;
+  margin-left: 5rem;
+}
+.body-container {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+.section-con1 {
+  text-align: left;
+}
+.name {
+  font-size: 4rem;
+  text-align: left;
+  margin-top: 10rem;
+  color: white;
+  text-shadow: 2px 2px 5px #5b5455;
+  margin-left: 5rem;
+}
+.pewpew {
+  margin-top: 3rem;
+  color: white;
+  text-shadow: 2px 2px 5px #5b5455;
+  margin-left: 5rem;
+  font-size: x-large;
+}
+.image1 {
+  width: 80%;
+  height: 100%;
+  margin-right: 7rem;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+.con2 {
+  background-color: #252023;
+  text-align: center;
+}
+.header-con2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  background-color: transparent;
+  padding-top: 4rem;
+  text-shadow: 5px 5px 8px #252023;
+  color: white;
+}
+.body-con2 {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.section-con2 {
+  background-color: transparent;
+  font-size: xx-large;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 6px 6px 8px#252023;
+  padding-right: 5rem;
+}
+
+.section-img-con2 {
+  background-color: transparent;
+}
+.image2 {
+  width: 70%;
+  height: 90%;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 3rem;
+}
+.con3 {
+  background-color: #252023;
+  text-align: center;
+}
+.header-con3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  background-color: transparent;
+  padding-top: 4rem;
+  text-shadow: 5px 5px 8px #252023;
+  color: white;
+}
+.body-con3 {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+.section-con3 {
+  background-color: transparent;
+  font-size: xx-large;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 6px 6px 8px#252023;
+  padding-right: 5rem;
+}
+
+.section-img-con3 {
+  background-color: transparent;
+}
+.image3 {
+  width: 80%;
+  height: 100%;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 7rem;
+}
+.container-contactme {
+  background-color: #252023;
+  color: white;
+}
+.header-contact {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  background-color: transparent;
+  padding-top: 4rem;
+  text-shadow: 5px 5px 8px #252023;
+  color: white;
+}
+.conbody-contact {
+  display: flex;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+.contactme {
+  margin-left: 3rem;
+  padding-right: 5rem;
+}
+.contact-me {
+  font-size: 7rem;
+  font-family: monospace;
+  padding-bottom: 3rem;
+}
+.pre,
+.pre1,
+.pre2,
+.follow {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.pre2,
+.follow {
+  margin-bottom: 1rem;
+}
+.Email {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.pre1 {
+  margin-bottom: 2rem;
+}
+.fblink {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+.contactme2 {
+  padding-left: 2rem;
+}
+.name-contact {
+  font-family: "Courier New", Courier, monospace;
+}
+.email,
+.message {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 2rem;
+}
+.input-text {
+  width: 70%;
+  height: 3rem;
+  font-size: xx-large;
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: fantasy;
+}
+.input-email {
+  width: 100%;
+  height: 3rem;
+  font-size: xx-large;
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: fantasy;
+}
+#input-message {
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  font-size: medium;
+  font-family: fantasy;
+  padding: 1rem;
+}
+.send,
+.reset {
+  margin-top: 3rem;
+  width: 80px;
+  height: 2rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  background-color: red;
+  border-color: #252023;
+  box-shadow: 3px 3px #5b5455;
+  font-family: fantasy;
+  font-size: large;
+}
+.container-send {
+  display: flex;
+  justify-content: end;
+}
